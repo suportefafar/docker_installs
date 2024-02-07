@@ -1,5 +1,9 @@
+# Credits
+Author: (Brian McGonagill)[https://gitlab.com/bmcgonag/docker_installs]
+
 # docker_installs
 This script will help install any, or all, of Docker-CE, Docker-Compose, NGinX Proxy Manager, and Portainer-CE.
+
 
 ## Reason for Making this Script
 I got tired of running individual commands all the time, so I created some scripts to make this very easy. 
