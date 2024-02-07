@@ -1,0 +1,18 @@
+version: "3"
+services:
+  guacamole:
+    image: jwetzell/guacamole
+    container_name: guacamole
+    restart: unless-stopped
+    volumes:
+      - ./postgres:/config
+    ports:
+      - 8080:8080
+volumes:
+  postgres:
+    driver: local
+
+networks:
+  default:
+    name: my-main-net
+    external: true
